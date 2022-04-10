@@ -1,4 +1,6 @@
+        							Data Model Interview Question and Answer
 Q: What is Data Model?
+
 Ans: Modeling the data. Arrangement of data inside database.
 
 Q: What is the purpose of data model?
@@ -13,7 +15,7 @@ Textual attributes do not support aggregate operations, where as measrable attri
 
 Q: How many types of data models available?
 Ans:
-There are types of models
+There are Different types of models
 a) E-R Model (Normalization model)
 Usage: OLTP systems follow Normalization methodology
 Terminology: Entity, attribute, primary key, foreign key etc...
@@ -34,7 +36,7 @@ Terminology: Dimension, Fact, [composite] primary key, surrogate key etc...
 Dimension: Holds only Textual info
 Fact: Holds only Measurable info
 
-Relation Ships: Star schema,snow flake schema, Hybrid scheme and Galaxy schema.
+Relationships: Star schema,snow flake schema, Hybrid scheme and Galaxy schema.
 
 
 Q: What is dimension and explain dimension table features?
@@ -53,7 +55,9 @@ g) Less rows
 Q: What is Fact and explain Fact table features?
 Ans:
 Fact is a measurable attribute. 
-It has two sections a) Foreign key references from dimension b) Measures  
+It has two sections 
+a) Foreign key references from dimension 
+b) Measures  
 
 Features:
 a) Child/ Trnsaction table
